@@ -11014,7 +11014,22 @@ section.resume-section .resume-section-content {
   color: white; /* White text color */
 }
 
+/* Style buttons */
+.btn {
+  background-color: rgb(71, 17, 17);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgb(85, 46, 46);
+}
+
 .html {width: 90%; background-color: #04AA6D;} /* Green */
 .css {width: 80%; background-color: #2196F3;} /* Blue */
 .js {width: 70%; background-color: #f44336;} /* Red */
-.php {width: 30%; background-color: #808080;} /* Dark Grey */
+.php {width: 20%; background-color: #808080;} /* Dark Grey */
